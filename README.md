@@ -22,7 +22,7 @@ All visualizations are filter-aware and can be customized by year, source, and j
 The original CORD-19 metadata file is large and exceeds GitHub’s upload limits. Therefore, the cleaned dataset is hosted externally.
 
 🔗 **Download the dataset from Google Drive**  
-👉 [CORD-19 Metadata ZIP (Google Drive)](https://your-google-drive-link-here)
+👉 [CORD-19 Metadata ZIP (Google Drive)](https://drive.google.com/file/d/1LMJYLvYogQV-JF8AWDizuFARIL-xBHBy/view?usp=sharing)
 
 > Once downloaded, extract the contents and place `cord19_cleaned.csv` in the root directory of this project.
 
@@ -31,22 +31,23 @@ The original CORD-19 metadata file is large and exceeds GitHub’s upload limits
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/cord19-metadata-explorer.git
-cd cord19-metadata-explorer
-2. Install Dependencies  
+bash
+git clone https://github.com/Chrysanthus-Jumaa/Frameworks_Assignment.git
+cd <repo folder>
+
+### 2. Install Dependencies  
 bash
 
 bash  
 pip install -r requirements.txt
 
-3. Run the App  
+### 3. Run the App  
 bash
 
 bash  
 streamlit run app.py
 
-📁 File Structure  
+### 📁 File Structure  
 Code
 
 text  
@@ -57,7 +58,7 @@ cord19-metadata-explorer/
 ├── requirements.txt        # Python dependencies  
 └── README.md               # Project documentation
 
-📋 Requirements  
+### 📋 Requirements  
 text
 
 Code  
@@ -72,26 +73,26 @@ bash
 pip install streamlit pandas matplotlib wordcloud  
 Or use the requirements.txt file provided.
 
-🧪 Notes on Data Cleaning  
+### 🧪 Notes on Data Cleaning  
 Extracted publish_year from publish_time using pd.to_datetime  
 Removed nulls and duplicates  
 Standardized journal and source names  
 Exported final dataset with index=False to avoid extra columns  
 Saved as cord19_cleaned.csv for use in the dashboard
 
-🧠 Built With  
+### 🧠 Built With  
 Streamlit — for interactive dashboards  
 Pandas — for data manipulation  
 Matplotlib — for custom visualizations  
 WordCloud — for title-based summaries
 
-👤 Author  
-Chrysanthus Analytical, detail-oriented, and passionate about reproducible data science workflows. Built this dashboard to explore metadata-rich datasets with clarity and creativity.
+### 👤 Author  
+Chrysanthus Jumaa - Analytical, detail-oriented, and passionate about reproducible data science workflows. Built this dashboard to explore metadata-rich datasets with clarity and creativity.
 
-📜 License  
+### 📜 License  
 This project is licensed under the MIT License — feel free to use, modify, and share.
 
-🗂️ Acknowledgments  
+### 🗂️ Acknowledgments  
 The CORD-19 dataset by Semantic Scholar  
 Streamlit community for dashboard inspiration  
 Matplotlib and WordCloud contributors for visualization tools
