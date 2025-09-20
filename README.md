@@ -35,17 +35,23 @@ bash
 git clone https://github.com/Chrysanthus-Jumaa/Frameworks_Assignment.git
 cd <repo folder>
 
+---
+
 ### 2. Install Dependencies  
 bash
 
 bash  
 pip install -r requirements.txt
 
+---
+
 ### 3. Run the App  
 bash
 
 bash  
 streamlit run app.py
+
+---
 
 ### 📁 File Structure  
 Code
@@ -57,6 +63,8 @@ cord19-metadata-explorer/
 ├── cord19_cleaned.csv      # Cleaned dataset (after extraction)  
 ├── requirements.txt        # Python dependencies  
 └── README.md               # Project documentation
+
+---
 
 ### 📋 Requirements  
 text
@@ -73,6 +81,8 @@ bash
 pip install streamlit pandas matplotlib wordcloud  
 Or use the requirements.txt file provided.
 
+---
+
 ### 🧪 Notes on Data Cleaning  
 Extracted publish_year from publish_time using pd.to_datetime  
 Removed nulls and duplicates  
@@ -80,19 +90,22 @@ Standardized journal and source names
 Exported final dataset with index=False to avoid extra columns  
 Saved as cord19_cleaned.csv for use in the dashboard
 
+---
+
 ### 🧠 Built With  
 Streamlit — for interactive dashboards  
 Pandas — for data manipulation  
 Matplotlib — for custom visualizations  
 WordCloud — for title-based summaries
 
+---
+
 ### 👤 Author  
 Chrysanthus Jumaa - Analytical, detail-oriented, and passionate about reproducible data science workflows. Built this dashboard to explore metadata-rich datasets with clarity and creativity.
 
-### 📜 License  
-This project is licensed under the MIT License — feel free to use, modify, and share.
+---
 
-### 🗂️ Acknowledgments  
-The CORD-19 dataset by Semantic Scholar  
-Streamlit community for dashboard inspiration  
-Matplotlib and WordCloud contributors for visualization tools
+### 📜 License  
+This project is free and open source.
+
+---
